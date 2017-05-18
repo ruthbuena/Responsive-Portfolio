@@ -1,0 +1,175 @@
+/*HW2-Styling for 3 HTML files*/
+
+body {
+	font-size: 24px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	background-image:url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+}	
+
+#header {
+	font-color: #ffffff;
+	padding: 20px 40px 40px 20px;
+	margin-bottom: 200px;
+	line-height: 60px;
+	width: 1400px;
+	height: 20px;
+	background-color: white;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+}
+
+#Nav {
+	list-style: none;
+	padding: 10px 10px 0 10px;
+	margin: 0;
+	float: left;
+	font-color: #cccccc;
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-color: #cccccc;
+}
+
+#header #menu {
+	padding-right: 200px;
+	float: right;
+	font-color: #cccccc;
+	list-style:; none;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	font-color: #cccccc;
+}
+
+h1 {
+	margin: -30px 0px 0px 100px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	font-weight: bold;
+	color: white;
+	font-weight: bold;
+	width: 250px;
+	height: 90px;
+	float: left;
+	text-align: center;
+}
+
+aside {
+	float: right;
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	background-color: #ffffff;
+	border-style: solid;
+	margin: -585px 150px 0 0;
+}
+
+
+.content {
+	background-color: white;
+	font-color: #777777;
+	padding: 20px;
+	width: 600px;
+	height: 500px;
+	margin: -150px 50px 50px 120px;
+}
+
+#photo {
+	margin: 25px;
+}
+
+#para1 {
+	margin: 20px 20px 10px 0px;
+	padding: 20px;
+}
+
+#para2 {
+	margin: 20px;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+#line1 {
+	line-width: 100%;
+}
+
+#line2 {
+	line-width: 50%;
+}
+
+.connect {
+	width: 270px;
+	height: 150px;
+	float: right;
+	background-color: #ffffff;
+	padding: 40px;
+}
+
+.Social {
+	overflow: visible;
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+
+.Copy {
+	text-align: center;
+}
+
+footer {
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	height: 100px;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+}
+
+#portfolio {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	border: 2px solid #cccccc;
+}
+
+#fill3 {
+	height: 150px;
+	width: 400px;
+}
+
+#fill1
+#fill2 {
+	color: #cccccc;
+	width: 600px;
+}
+
+#button {
+	margin: 10px;
+}
+
+
