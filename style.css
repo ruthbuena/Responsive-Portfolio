@@ -1,4 +1,4 @@
-/*HW2-Styling for 3 HTML files*/
+/*Styling for 3 HTML files HW2 Media Queries*/
 
 body {
 	font-size: 24px;
@@ -11,17 +11,18 @@ body {
 	padding: 20px 40px 40px 20px;
 	margin-bottom: 200px;
 	line-height: 60px;
-	width: 1400px;
+	width: 100%;
 	height: 20px;
 	background-color: white;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
+	line-height: 4em;
 }
 
 #Nav {
 	list-style: none;
-	padding: 10px 10px 0 10px;
+	padding: 0px 10px 0 10px;
 	margin: 0;
 	float: left;
 	font-color: #cccccc;
@@ -69,7 +70,7 @@ aside {
 	padding: 30px;
 	background-color: #ffffff;
 	border-style: solid;
-	margin: -585px 150px 0 0;
+	margin: -585px 500px 0 0;
 }
 
 
@@ -122,10 +123,6 @@ h2 {
 	float: right;
 }
 
-.wrapper {
-	min-height: 100%;
-}
-
 .clearfix::after {
 	display: block;
 	content: "";
@@ -147,6 +144,12 @@ footer {
 	border-top-width: 10px;
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
+	line-height: 6em;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -100px;
 }
 
 #portfolio {
@@ -172,4 +175,243 @@ footer {
 	margin: 10px;
 }
 
+@media only screen and (max-width: 980px) {
+	
+	#header 
+	#menu {
+		padding-right: 60px;
+	}
 
+	aside {
+		margin: -740px 10px 0 0;
+	}
+
+	.content {
+		width: 425px;
+		height: 650px;
+	}
+
+	#photo {
+		width: 350px;
+		height: 300px;
+	}
+
+	footer {
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+		max-width: 100%;
+	}
+
+	h1 {
+		margin-left: -5px;
+	}	
+
+	.content {
+		width: 675px;
+		height: 475px;
+		max-width: 100%;
+		margin: -150px 10px 10px 10px;
+	}
+
+	aside {
+		width: 690px;
+		height: 175px;
+		max-width: 100%;
+		margin: 0px 30px 0px 0px;
+		padding: 10px;
+	}
+
+	#photo {
+		width: 250px;
+		height: 250px;
+	}
+
+	#icons {
+		color: #4aaaa5;
+	}
+
+	#folio {
+		height: 500px;
+	}
+
+	#tab1 {
+		height: 100px;
+	}
+
+	#Portfolio {
+		width: 75px;
+		height: 75px;
+		float:left;
+	}
+
+	.Social {
+		width: 80px;
+		height: 80px;
+	}
+
+	#menu {
+		font-size: large;
+		margin: -25px;
+	}
+
+	#fill3 {
+		width: 200px;
+		height: 300px;
+	}
+
+	#Nav {
+	float: left;
+	}
+
+	footer {
+		max-width: 100%;
+		height: 250px;
+	}
+
+	#bf {
+		height: 75px;
+	}
+
+	.Social {
+		float: left;
+	}
+
+	#tabC {
+		color: #4aaaaf;
+	}
+
+	#tablet {
+		height: 600px;
+	}
+	
+}
+
+@media only screen and (max-width: 640px) {
+
+	h1,
+	#menu {
+		width: 100%;
+	}
+
+	h1 {
+		margin: -20px;
+		height: 80px;
+		line-height: 2.5em;
+	}
+	
+	#About {
+		font-size: medium;
+		color: #4aaaa5;
+	}
+
+	#menu {
+		background-color: #ffffff;
+		width: 100%;
+		height: 50px;
+		margin: 0px;
+		text-align: center;
+		border-bottom-color: #666666;
+		border-style: solid;
+		line-height: 2.5em;
+	}
+
+	.content {
+		width: 550px;
+		height: 500px;
+		font-size: medium;
+		margin: -150px 10px 10px 10px;
+	}
+
+	aside {
+		width: 550px;
+		height: 100px;
+		max-width: 100%;
+		margin: 42px 36px 0px 0px;
+		padding: 10px;
+	}
+
+	#photo {
+		width: 450px;
+		height: 300px;
+	}
+
+	#icons {
+		color: #4aaaa5;
+	}
+
+	#folio {
+		width: 550px;
+		height: 900px;
+	}
+
+	#Portfolio {
+		width: 400px;
+		height: 200px;
+	}
+
+	#links {
+		margin: -70px 0px 0px -82px;
+		width: 700px;
+	}
+
+	#tablet {
+		height: 600px;
+	}
+
+	.Social {
+		width: 50px;
+		height: 50px;
+	}
+
+	.phone {
+		height: 1200px;
+		width: 600px;
+		background-color: #ffffff;
+		margin-left: 10px;
+	}
+
+
+	#fill3 {
+		width: 300px;
+		height: 200px;
+	}
+
+	#Nav {
+	position: relative;
+	margin: 0px 60px 0px 60px;
+	padding: 14px;
+	line-height: 1.5em;
+	}
+
+	footer {
+		max-width: 100%;
+		height: 200px;
+	}
+
+	#bf {
+		height: 75px;
+	}
+
+	#tabC {
+		color: #4aaaaf;
+	}
+
+	.Copy {
+		height: 75px;
+		font-size: small;
+	}
+
+	.Social {
+		float: left;
+	}
+
+	#mobile {
+		padding: 0px 26px 0px 0px;
+	}
+	
+}
